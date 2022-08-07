@@ -1,0 +1,6 @@
+@use '../variables';
+@use '../mixins';
+
+.footer{
+    background-color: variables.$brown-900;
+}
