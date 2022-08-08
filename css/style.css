@@ -82,10 +82,60 @@ button, a {
   margin-left: 8px;
 }
 
+.card--style {
+  width: 288px;
+}
+
+.main__title {
+  color: #C87B4D;
+}
+
+.main__paragraph {
+  color: #C87B4D;
+}
+
+@media screen and (min-width: 768px) {
+  .card--style {
+    width: 430px;
+  }
+}
 .footer {
   background-color: #C87B4D;
 }
+.footer__list {
+  list-style: none;
+}
+.footer__list a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer__list--siguenos {
+  font-weight: 400;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.footer__list--firts {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.footer__paragraph {
+  color: #FFFFFF;
+  text-align: center;
+}
+.footer__paragraph span {
+  color: #9A2E34;
+}
 
+@media screen and (min-width: 768px) {
+  .footer__list--siguenos {
+    text-align: start;
+  }
+  .footer__list--firts {
+    text-align: start;
+  }
+}
 .button {
   border-radius: 100px;
   border: none;
@@ -99,4 +149,21 @@ button, a {
 .button--without-fill {
   background-color: transparent;
   border: 1px solid #F2994A;
+}
+
+.card__button {
+  border-radius: 60px;
+  border: none;
+  text-align: center;
+  width: 60px;
+  color: #FFFFFF;
+}
+.card__button--dev {
+  background-color: #F2994A;
+}
+.card__button--mvp {
+  background-color: #221413;
+}
+.card__button--ux-ui {
+  background-color: #F5CC6A;
 }/*# sourceMappingURL=style.css.map */

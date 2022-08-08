@@ -1,0 +1,17 @@
+@use '../variables';
+@use '../mixins';
+
+.card--style{
+    width: 288px;
+}
+.main__title{
+    color: variables.$brown-900;
+}
+.main__paragraph{
+    color: variables.$brown-900;
+}
+@include mixins.responsive('md') {
+    .card--style{
+        width: 430px;
+    }
+}
